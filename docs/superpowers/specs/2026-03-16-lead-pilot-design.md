@@ -114,7 +114,7 @@ Each lead is a Notion page with these properties:
 | Phone | Phone | If provided |
 | Property | Rich Text | Which unit they're asking about (free-text to avoid needing schema updates when properties are added) |
 | Platform(s) | Multi-select | Zillow, Avail, Apartments.com, Facebook |
-| Status | Select | New → Response Drafted → Awaiting Approval → Sent → Screening → Archived |
+| Status | Select | New → Response Drafted → Awaiting Approval → Sent → Screening → Archived (also: Needs Manual Review) |
 | Priority | Select | High / Medium / Low |
 | Last Message | Date | Timestamp of most recent message |
 | Auto-Send Eligible | Checkbox | For future auto-send rules |
