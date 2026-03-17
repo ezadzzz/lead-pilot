@@ -1,0 +1,41 @@
+address: "30 Cooper St, Unit 30A"
+city: "Manchester"
+state: "CT"
+zip: "06040"
+bedrooms: 2
+bathrooms: 1
+rent: 1895
+available_date: "2026-05-01"
+pre_leasing: true
+security_deposit: "1 month"
+application_fee: 50
+renters_insurance:
+  required: true
+  min_liability: 100000
+pet_policy:
+  allowed: true
+  fee: 350
+  monthly_rent: "25-50"
+  screening: "PetScreening FIDO"
+parking: "1 off-street space included per leaseholder"
+optional_extras:
+  - "Private garage: $125/mo"
+laundry: "Shared on-site, no cost"
+utilities_included:
+  - "Water"
+utilities_tenant:
+  - "Electric"
+  - "Heat"
+  - "Hot water"
+amenities:
+  - "Original hardwood floors"
+  - "Exposed brick"
+  - "GE stainless steel appliances"
+screening:
+  min_credit_score: 650
+  min_income_multiplier: 3
+  max_occupants: 2
+lease_terms:
+  - 12
+listing_copy: |
+  Beautifully-Restored 2BD/1BA in Manchester's Historic West Side. $1,895/mo. Available May 1st.
