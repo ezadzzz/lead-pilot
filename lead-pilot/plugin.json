@@ -1,0 +1,66 @@
+{
+  "name": "lead-pilot",
+  "version": "0.1.0",
+  "description": "Automates rental lead ingestion, response drafting, and review workflow for property managers",
+  "commands": [
+    {
+      "name": "leads:setup",
+      "description": "First-run setup — creates Notion database and initializes state file",
+      "path": "commands/setup.md"
+    },
+    {
+      "name": "leads:check",
+      "description": "Poll Gmail for new leads, ingest them, and draft responses",
+      "path": "commands/check.md"
+    },
+    {
+      "name": "leads:review",
+      "description": "Show next lead needing review — full thread and drafted response",
+      "path": "commands/review.md"
+    },
+    {
+      "name": "leads:edit",
+      "description": "Iterate conversationally on a drafted response",
+      "path": "commands/edit.md"
+    },
+    {
+      "name": "leads:approve",
+      "description": "Approve a drafted response and copy to clipboard",
+      "path": "commands/approve.md"
+    },
+    {
+      "name": "leads:skip",
+      "description": "Dismiss a lead without responding — moves to Archived",
+      "path": "commands/skip.md"
+    },
+    {
+      "name": "leads:add",
+      "description": "Manually add a lead (for Facebook or walk-ins)",
+      "path": "commands/add.md"
+    },
+    {
+      "name": "leads:add-property",
+      "description": "Add a property from listing copy or URL — Claude parses into YAML config",
+      "path": "commands/add-property.md"
+    },
+    {
+      "name": "leads:status",
+      "description": "Show lead counts by status",
+      "path": "commands/status.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "lead-pilot-core",
+      "path": "skills/core.md"
+    },
+    {
+      "name": "lead-pilot-email-parser",
+      "path": "skills/email-parser.md"
+    },
+    {
+      "name": "lead-pilot-response-drafter",
+      "path": "skills/response-drafter.md"
+    }
+  ]
+}

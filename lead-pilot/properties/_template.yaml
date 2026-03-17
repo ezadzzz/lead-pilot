@@ -1,0 +1,47 @@
+# properties/_template.yaml
+# Copy this file and rename it to match your property address
+# e.g.: properties/30-cooper-st-unit-30a.yaml
+
+address: ""           # Street address including unit, e.g. "30 Cooper St, Unit 30A"
+city: ""
+state: ""
+zip: ""
+bedrooms: 0
+bathrooms: 0
+rent: 0               # Monthly rent in dollars
+available_date: ""    # YYYY-MM-DD format
+pre_leasing: false    # Set to true if unit is occupied — disables in-person showing offers
+
+security_deposit: "1 month"
+application_fee: 0    # Per leaseholder, in dollars
+
+renters_insurance:
+  required: false
+  min_liability: 100000
+
+pet_policy:
+  allowed: false
+  fee: 0              # One-time, non-refundable
+  monthly_rent: ""    # e.g. "25-50"
+  screening: ""       # e.g. "PetScreening FIDO"
+
+parking: ""           # e.g. "1 off-street space included per leaseholder"
+optional_extras: []   # e.g. ["Private garage: $125/mo"]
+
+laundry: ""           # e.g. "Shared on-site, no cost" or "In-unit"
+
+utilities_included: []   # e.g. ["Water"]
+utilities_tenant: []     # e.g. ["Electric", "Heat", "Hot water"]
+
+amenities: []
+
+screening:
+  min_credit_score: 0
+  min_income_multiplier: 3
+  max_occupants: 0
+
+lease_terms: []       # e.g. [12] or [12, 18]
+
+listing_copy: |
+  Paste your full listing text here.
+  This gives the response engine full context for answering detailed questions.
