@@ -1,0 +1,11 @@
+FROM: lead@apartments.com
+REPLY-TO: barbarahuarcaya@icloud.com
+TO: silkcityapartments@gmail.com
+SUBJECT: You've received a new lead!
+
+You've received a new lead for the following property:
+
+30 Cooper St, Manchester, CT 06040
+
+Sign in to your account to view message details and continue the conversation.
+[View Message] https://www.apartments.com/...

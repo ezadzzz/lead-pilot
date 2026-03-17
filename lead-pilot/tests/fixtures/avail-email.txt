@@ -1,0 +1,13 @@
+FROM: Avail Team <support@avail.co>
+TO: silkcityapartments@gmail.com
+SUBJECT: You have received a new message on Avail
+
+Hi Silk,
+
+We wanted to let you know you've received a new message from Rebecca Meyer about your rental at 28 30 Cooper St.
+
+Here's a preview:
+"I am interested in 28 30 Cooper St Unit 30A."
+
+To see the full message and reply, use the secure link below. It will expire after 48 hours.
+[Reply Securely] https://avail.co/secure-reply/...
